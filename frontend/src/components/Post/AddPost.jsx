@@ -73,7 +73,7 @@ class Post extends Component {
     if (!description.trim()) {
       errors.description = 'La descripción es obligatoria';
     } else if (description.length > 75) {
-        errors.description = 'La descripción no puede tener más de 500 caracteres';
+        errors.description = 'La descripción no puede tener más de 75 caracteres';
     }
 
     if(description.length > 300) {
