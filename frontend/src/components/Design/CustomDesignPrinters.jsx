@@ -181,7 +181,7 @@ const CustomDesignPrinters = () => {
                 </>
               )}
             </div>
-            {data.status === "printing" && (
+            {data && currentUser && data.status === "printing" && currentUser.id != data.buyer && (
               <div style={{ textAlign: "center", alignItems: "center" }}>
                 {data.status === "printing" && (
                   <button className="large-btn button" onClick={handleFinish}>
