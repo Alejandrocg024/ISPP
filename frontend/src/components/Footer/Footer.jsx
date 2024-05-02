@@ -16,9 +16,9 @@ const Footer = () => {
             <div className='footer-section'>
                 <img src={logo} className='logo-footer' onClick={() => onButtonClick('/')} />
                 <div className='social'>
-                    <img src={facebookIcon} className='social-media-icon' onClick={() => onButtonClick('/')} />
-                    <img src={instagramIcon} className='social-media-icon' onClick={() => onButtonClick('/')} />
-                    <img src={twitterIcon} className='social-media-icon' onClick={() => onButtonClick('/')} />
+                    <img src={facebookIcon} className='social-media-icon' onClick={() => onButtonClick('https://www.facebook.com/people/Shar3d/61558534868827/')} />
+                    <img src={instagramIcon} className='social-media-icon' onClick={() => onButtonClick('https://www.instagram.com/shar3d_es/')} />
+                    <img src={twitterIcon} className='social-media-icon' onClick={() => onButtonClick('https://twitter.com/shar3d_2024')} />
                 </div>
             </div>
             <div className='footer-section'>
