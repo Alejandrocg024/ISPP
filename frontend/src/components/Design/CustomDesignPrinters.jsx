@@ -183,7 +183,7 @@ const CustomDesignPrinters = () => {
             </div>
             {data && currentUser && data.status === "printing" && currentUser.id != data.buyer && (
               <div style={{ textAlign: "center", alignItems: "center" }}>
-                {data.status === "printing" && (
+                {data && currentUser && data.status === "printing" && currentUser.id != data.buyer && (
                   <button className="large-btn button" onClick={handleFinish}>
                     Terminar impresión
                   </button>
